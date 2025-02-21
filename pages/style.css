@@ -1,0 +1,47 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+    max-width: 900px;
+}
+.card img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+.history {
+    margin-bottom: 15px;
+}
+.info-container {
+    display: flex;
+    gap: 10px;
+}
+.personality, .abilities {
+    flex: 1;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 5px;
+}
+.personality ul, .abilities ul {
+    list-style: none;
+    padding: 0;
+}
+.personality li, .abilities li {
+    margin: 5px 0;
+}
